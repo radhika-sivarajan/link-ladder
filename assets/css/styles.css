@@ -11,6 +11,19 @@ body {
     font-size: 50px;
 }
 
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.articles-links li {
+    line-height: 2.5em;
+    height: auto;
+}
+
 #articles,
 #social-media {
     padding: 4% 9% 6% 9%;
@@ -23,8 +36,9 @@ body {
 #social-media {
     background-color: #fbf8fa;
 }
+
 .articles-links .btn,
-.social-media-links .btn{
+.social-media-links .btn {
     font-size: 30px;
 }
 
@@ -32,9 +46,6 @@ footer {
     background-color: #6e5773;
     color: white;
     padding: 4%;
-}
-a:link {
-    text-decoration: none;
 }
 
 .btn {
@@ -55,14 +66,8 @@ a:link {
 }
 
 .article-button {
-    width: 80%;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-}
-
-a {
-    color: white;
+    color: indigo;
+    font-size: 20px;
 }
 
 .btn:hover {
@@ -100,6 +105,7 @@ a {
         font-size: 20px;
     }
 }
+
 @media screen and (max-width: 500px) {
     .heading {
         font-size: 30px;
