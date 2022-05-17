@@ -20,7 +20,7 @@ a:link {
 }
 
 .articles-links li {
-    line-height: 2.5em;
+    line-height: 1.5em;
     height: auto;
 }
 
@@ -37,7 +37,7 @@ a:link {
     background-color: #fbf8fa;
 }
 
-.articles-links .btn,
+.articles-links li,
 .social-media-links .btn {
     font-size: 30px;
 }
@@ -100,9 +100,17 @@ footer {
         font-size: 40px;
     }
 
-    .articles-links .btn,
     .social-media-links .btn {
         font-size: 20px;
+    }
+
+    .article-button {
+        font-size: 15px;
+    }
+
+    .articles-links li {
+        line-height: 1.0em;
+        height: auto;
     }
 }
 
@@ -111,8 +119,16 @@ footer {
         font-size: 30px;
     }
 
-    .articles-links .btn,
     .social-media-links .btn {
         font-size: 15px;
+    }
+
+    .article-button {
+        font-size: 10px;
+    }
+
+    .articles-links li {
+        line-height: .4em;
+        height: auto;
     }
 }
