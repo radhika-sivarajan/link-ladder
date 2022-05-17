@@ -100,12 +100,9 @@ footer {
         font-size: 40px;
     }
 
-    .social-media-links .btn {
-        font-size: 20px;
-    }
-
+    .social-media-links .btn,
     .article-button {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .articles-links li {
@@ -119,12 +116,9 @@ footer {
         font-size: 30px;
     }
 
-    .social-media-links .btn {
-        font-size: 15px;
-    }
-
+    .social-media-links .btn,
     .article-button {
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .articles-links li {
