@@ -27,6 +27,8 @@ a:link {
 #articles,
 #social-media {
     padding: 4% 9% 6% 9%;
+    line-height: 1.5em;
+    height: auto;
 }
 
 #articles {
@@ -105,12 +107,16 @@ footer {
         font-size: 20px;
     }
 
+    #articles,
+    #social-media {
+        padding: 4% 4% 6% 4%;
+    }
+
     .articles-links li {
         line-height: 1.0em;
         height: auto;
     }
 }
-
 @media screen and (max-width: 500px) {
     .heading {
         font-size: 30px;
@@ -121,8 +127,13 @@ footer {
         font-size: 15px;
     }
 
+    #articles,
+    #social-media {
+        padding: 4% 3% 6% 3%;
+    }
+
     .articles-links li {
-        line-height: .4em;
+        line-height: .6em;
         height: auto;
     }
 }
