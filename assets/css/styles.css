@@ -97,6 +97,10 @@ footer {
     background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 51%, #ffecd2 100%);
 }
 
+.btn-6 {
+    background-image: linear-gradient(to right, #7cd7f6 0%, #5096f3 51%, #56CCF2 100%);
+}
+
 @media screen and (max-width: 960px) {
     .heading {
         font-size: 40px;
